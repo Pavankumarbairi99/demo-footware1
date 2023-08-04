@@ -1,0 +1,620 @@
+.nav-img {
+    width: 210px;
+    height: 85px;
+    margin-left: 35px;
+}
+
+#nav-bg-top {
+    background-image: radial-gradient(rgb(247, 237, 233), white);
+}
+
+#nav-head-top {
+    font-family: "serif";
+    font-size: 22px;
+    color: rgb(26, 59, 90);
+    font-weight: bold;
+    margin-left: 10px;
+    transition: transform;
+    cursor: pointer;
+}
+
+#nav-head-top:hover {
+    transform: scaleX(1.01);
+    color: rgb(245, 68, 68);
+    text-decoration: underline;
+}
+
+.cauousel-bg {
+    margin-top: 110px;
+}
+
+.carousel-img {
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+}
+
+.carousel-img-md {
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+}
+
+.carousel-img {
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+}
+
+.models-top {
+    margin-top: 29px;
+    margin-bottom: 48px;
+}
+
+.menu-list-silder {
+    color: rgb(0, 0, 0);
+    font-family: "roboto";
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-left: 4%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    overflow: hidden;
+    line-height: 100px;
+    height: 100px;
+}
+
+.slider {
+    color: #ff2007;
+    margin-left: 18px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+
+@keyframes slider {
+    0% {
+        margin-top: -400px;
+    }
+    5% {
+        margin-top: -200px
+    }
+    30% {
+        margin-top: -200px;
+    }
+    35% {
+        margin-top: 0px;
+    }
+    65% {
+        margin-top: 0px;
+    }
+    70% {
+        margin-top: 200px
+    }
+    100% {
+        margin-top: 200px
+    }
+}
+
+.models-bg {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.card-bg-model {
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform;
+    margin: 0px;
+    height: 98%;
+}
+
+.card-bg-model:hover {
+    transform: scale(1.04);
+    filter: brightness(60%);
+}
+
+.models-img {
+    width: 93%;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 18px;
+}
+
+.card-models-head {
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(13, 33, 68);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-models-head1 {
+    font-family: "monospace";
+    font-size: 20px;
+    color: rgb(13, 33, 68);
+    text-align: center;
+    margin-top: -2px;
+}
+
+.card-models-head:hover {
+    color: rgb(245, 25, 10);
+}
+
+.card-models-hr {
+    width: 180px;
+    margin-top: 10px;
+}
+
+.card-models-para {
+    font-family: "monospace";
+    font-size: 16px;
+    color: #6b6d70;
+    text-align: center;
+    margin-top: -5px
+}
+
+.card-deals-links {
+    font-family: "cursfangsongive";
+    font-size: 18px;
+    color: rgb(252, 169, 17);
+    margin-top: -10px;
+}
+
+.oxer-bg {
+    padding: 20px;
+    margin-top: 20px;
+    background-image: radial-gradient(rgb(253, 252, 252), rgb(245, 250, 229));
+}
+
+.oxer-img {
+    width: 100%;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.oxer-head-top {
+    font-family: "serif";
+    font-size: 49px;
+    font-weight: bold;
+    color: rgb(4, 28, 70);
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.oxer-card-para1 {
+    padding: 14px;
+}
+
+.oxer-bg3 {
+    margin-top: 40px;
+}
+
+.oxer-card-para {
+    font-family: "roboto";
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.oxer-card-head {
+    font-family: "serif";
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(221, 46, 40);
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.oxer-span {
+    font-family: "serif";
+    font-size: 32px;
+    color: rgb(235, 98, 19);
+}
+
+.our-brands {
+    margin-top: 40px;
+}
+
+.our-brands-head {
+    font-family: "manospace";
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(250, 57, 44);
+    margin-top: 24px;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.our-brands-hr {
+    width: 85%;
+    margin-top: -15px;
+    margin-left: 90px;
+}
+
+.ourproducts-img {
+    width: 23%;
+    margin-left: 20px;
+    margin-top: 30px;
+    filter: drop-shadow(4px 4px 8px #999999);
+    margin-bottom: 20px;
+}
+
+.ourproducts-img-md {
+    width: 17%;
+    margin-left: 20px;
+    margin-top: 30px;
+    filter: drop-shadow(4px 4px 8px #999999);
+    margin-bottom: 5px;
+}
+
+.card-ajay-sec {
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-ajay-img {
+    width: 100%;
+    position: absolute;
+}
+
+.ajay-card-para {
+    font-family: "roboto";
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(50, 50, 51);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.ajay-span {
+    font-family: "roboto";
+    font-size: 26px;
+    color: rgb(240, 44, 30);
+    font-weight: bold;
+}
+
+.card-footer {
+    background-image: url("https://res.cloudinary.com/dvubvku3b/image/upload/v1675184477/footer-bg-1-1_drderw.jpg");
+    padding: 30px;
+    background-size: cover;
+    width: 100vw;
+    padding-left: 42px;
+}
+
+.footer-img {
+    width: 55%;
+    margin-top: 10px;
+}
+
+.card-footer-mail-bg {
+    background-color: #6e75fa;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.card-footer-center-bg {
+    background-color: #21b61c;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.icon-footer {
+    font-size: 24px;
+    color: #f8fafc;
+}
+
+.card-footer-head {
+    font-family: "roboto";
+    font-size: 20px;
+    color: #181413;
+    margin-top: 10px;
+}
+
+.footer-contactus-head {
+    font-family: "monospace";
+    font-size: 36px;
+    color: #fcfafa;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.footer-contactus-para {
+    font-family: "monospace";
+    font-size: 26px;
+    color: #f2f3f5;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    transition: transfrom;
+}
+
+.footer-contactus-para:hover {
+    color: rgb(243, 187, 84);
+    text-align: underline;
+    transform: scale(1.01);
+}
+
+.contact-c {
+    text-decoration: rgb(243, 78, 27) underline;
+}
+
+.footer-contactus-para1 {
+    font-family: "roboto";
+    font-size: 24px;
+    color: #f2f3f5;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.card-hr {
+    background-color: #f6f8fa;
+    width: 99%;
+}
+
+.icon-copy {
+    font-size: 24px;
+    color: #eef1f3;
+}
+
+.bottom-footer-head {
+    font-family: "roboto";
+    font-size: 22px;
+    color: #ffffff;
+    margin-left: 8px;
+}
+
+.icon-phone {
+    margin-right: 10px;
+}
+
+.add {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.icon-insta {
+    background-image: linear-gradient(rgb(230, 53, 236), rgb(247, 62, 16), rgb(248, 191, 5));
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.icon-map {
+    background-color: rgb(75, 133, 219);
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.lists-arrow {
+    list-style-type: disc;
+    color: white;
+}
+
+
+/*              Shoes Lists of Shoes Page        */
+
+.shoeslist {
+    margin-top: 30px;
+    padding: 12px;
+}
+
+.mensshoes {
+    font-family: "monospace";
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+    margin-left: 20px;
+}
+
+.shoes-products {
+    margin-top: 30px;
+    height: 98%;
+    border-radius: 12px;
+    transition: transform;
+}
+
+.shoes-products:hover {
+    transform: scale(1.06);
+    filter: drop-shadow(100%);
+}
+
+.shoes-images {
+    width: 95%;
+}
+
+.shoes-images-women {
+    width: 72%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.shoes-images1 {
+    width: 68%;
+    margin-left: 30px;
+}
+
+.shoes-lowfer-img {
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 16px;
+}
+
+.headshoes {
+    font-family: "monospace";
+    color: #1c1d1d;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.headshoes-women {
+    font-family: "monospace";
+    color: #1d1d1e;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.headshoes-style {
+    font-family: "roboto";
+    color: #2e2f30;
+    font-size: 28px;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.head-lowfer {
+    font-family: "roboto";
+    color: #2e2f30;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.para-shoes {
+    font-family: "roboto";
+    color: #89898f;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn-shoes {
+    font-family: "roboto";
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #191818;
+    border-radius: 12px;
+    border: 2px solid #2c36a4;
+    width: 87px;
+    height: 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #3a4db7 50%);
+    background-position: left;
+    background-size: 200%;
+    transition: background-position 0.7s;
+}
+
+.btn-shoes:hover {
+    background-position: right;
+    color: #fff;
+}
+
+.shoeslists-back {
+    margin-top: 40px;
+    background-color: rgb(58, 59, 57);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-family: "roboto";
+    width: 70px;
+}
+
+
+/*              Shoes Lists of Close Shoes Page        */
+
+.kiana-shoes {
+    font-family: "monospace";
+    color: #1c1d1d;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.shoes-sport {
+    width: 85%;
+    margin-top: 4px;
+    margin-left: 16px;
+}
+
+.shoes-style {
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 16px;
+}
+
+.shoes-images-women {
+    width: 78%;
+    margin-top: 28px;
+    margin-left: 30px;
+}
+
+.headshoes-women-1 {
+    font-family: "monospace";
+    color: #1d1d1e;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/*              Shoes Lists of Chappel Page        */
+
+.chappal-images {
+    width: 240px;
+}
+
+.headchappel-1 {
+    font-size: 20px;
+    font-family: "roboto";
+    text-align: center;
+}
+
+.chappal-images1 {
+    width: 280px;
+    margin-top: 20px;
+}
+
+.chappal-images2 {
+    width: 240px;
+    margin-top: 20px;
+}
+
+.head-chappal {
+    font-size: 20px;
+    font-family: "roboto";
+    text-align: center;
+    margin-top: 20px;
+}
+
+.head-chappal2 {
+    font-size: 20px;
+    font-family: "roboto";
+    text-align: center;
+    margin-top: 20px;
+}
